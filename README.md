@@ -1,2 +1,2 @@
 ### GAN
-Simple GAN  model for understanding of generative comcepts.
+Simple GAN  model for understanding of generative concepts.
