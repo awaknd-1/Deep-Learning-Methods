@@ -1,7 +1,7 @@
 ### GAN
 Simple GAN  model for understanding of generative concepts.
 
-### TCBAM
+### CBAM
 Time distributed Convolutional Block Attention Module (CBAM) [1].
 
 
