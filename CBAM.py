@@ -2,7 +2,8 @@
 import numpy as np
 import tensorflow
 import tensorflow.keras.backend as K
-from tensorflow.keras.layers import GlobalAveragePooling1D, TimeDistributed, GlobalMaxPooling1D, Dense, Reshape,Concatenate, Multiply, Permute, Conv1D, Add, Activation, Lambda
+from tensorflow.keras.layers import GlobalAveragePooling1D, TimeDistributed, GlobalMaxPooling1D, Dense, Reshape,Concatenate, Multiply, Permute, Conv1D
+from tensorflow.keras.layers import Add, Activation, Lambda
 
 # define channel attention
 def channel_attention(inputs, ratio=8):
@@ -51,34 +52,3 @@ def CBAM(inputs):
     return refined_features
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
